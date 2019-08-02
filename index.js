@@ -117,7 +117,7 @@ client.on('message', message => {
     if (message.content === '!rules') {
 
       const embed = new RichEmbed()
-
+  
         .setTitle('Rules')
 
         .setColor(0xff0000)
@@ -196,4 +196,4 @@ client.on('message', message => {
 
 
 
-client.login("NTk5NDExNTkyMzU4MTMzNzYz.XS0fsA._jY7r_P_Zna6_iYSIdTgL2HypFo");
+client.login(process.env.BOT_TOKEN);
